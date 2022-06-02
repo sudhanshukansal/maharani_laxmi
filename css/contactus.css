@@ -1,0 +1,8 @@
+@media only screen and (max-width: 780px) {
+    .contact-detail {
+      flex-direction: column;
+      margin: 10px 10px;
+    }
+
+  }
+  

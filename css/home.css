@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.header{
+    width: 100%;
+    
+}
+.heading{
+    color: brown;
+    font-style: italic;
+    font-family: 'Open Sans Condensed !important' ;
+    letter-spacing: 2px;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+.home-mid-info{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 834px) {
+  .heading {
+    
+    font-size: 35px;
+        
+  }
+  .home-mid-info{
+   flex-direction: column;
+   text-align: center;
+  }
+}
+
+@media only screen and (max-width: 678px) {
+  .heading {
+    
+    font-size: 25px;
+        
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .heading {
+    
+    font-size: 22px;
+        font-weight: bolder;
+  }
+}
+
+
+
+/* .footer1{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+footer{
+    background-color: black;
+} */
+.fixed-footer{
+background-color: black !important;
+color: white;
+}
+.copyright p{
+  background-color: black !important;
+
+    text-align: center;
+    margin: -1px;
+}
+.fixed-footer-address{
+   margin-left: 30%;
+   background-color: black !important;
+
+    
+}
+@media only screen and (max-width: 780px) {
+    .copyright {
+      font-size: small;
+      
+    }
+    .a{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fixed-footer-address{
+        margin: 0px;
+    }
+    #address{
+   font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 530px) {
+    .copyright {
+      
+      font-size: x-small;
+          
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .copyright {
+      
+      font-size: xx-small;
+          
+    }
+  }
+.card{
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    transition: all linear 200ms;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    cursor: pointer;
+  }

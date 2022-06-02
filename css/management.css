@@ -1,0 +1,13 @@
+.management-pic{
+    display: flex;
+justify-content: space-around;
+}
+
+@media only screen and (max-width: 834px) {
+    .management-pic {
+      
+      flex-direction: column;
+      align-items: center;
+          
+    }
+  }
